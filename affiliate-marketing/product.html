@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm - Smart Affiliate</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <i class="fas fa-robot text-blue-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-gray-800">Smart Affiliate</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Trang chủ</a>
+                    <a href="category.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Danh mục</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Liên hệ</a>
+                    <a href="admin.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Quản trị</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-gray-600 text-xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden">
+                <a href="index.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Trang chủ</a>
+                <a href="category.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Danh mục</a>
+                <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Liên hệ</a>
+                <a href="admin.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Quản trị</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="max-w-7xl mx-auto px-4 py-4">
+        <nav class="flex" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2">
+                <li>
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600">Trang chủ</a>
+                </li>
+                <li class="flex items-center">
+                    <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+                    <a href="category.html" class="text-gray-600 hover:text-blue-600">Thời trang</a>
+                </li>
+                <li class="flex items-center">
+                    <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+                    <span class="text-gray-800">Áo thun nam cao cấp</span>
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- Product Detail -->
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
+                <!-- Product Images -->
+                <div class="space-y-4">
+                    <div class="aspect-w-1 aspect-h-1">
+                        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Áo thun nam" class="w-full h-96 object-cover rounded-lg">
+                    </div>
+                    <div class="grid grid-cols-4 gap-4">
+                        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Áo thun nam" class="w-full h-24 object-cover rounded-lg cursor-pointer">
+                        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Áo thun nam" class="w-full h-24 object-cover rounded-lg cursor-pointer">
+                        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Áo thun nam" class="w-full h-24 object-cover rounded-lg cursor-pointer">
+                        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Áo thun nam" class="w-full h-24 object-cover rounded-lg cursor-pointer">
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="space-y-6">
+                    <h1 class="text-3xl font-bold text-gray-900">Áo thun nam cao cấp</h1>
+                    
+                    <!-- Rating -->
+                    <div class="flex items-center">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="ml-2 text-gray-600">(120 đánh giá)</span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="text-3xl font-bold text-gray-900">
+                        299.000đ
+                        <span class="text-lg text-gray-500 line-through ml-2">399.000đ</span>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="space-y-4">
+                        <p class="text-gray-600">
+                            Áo thun nam cao cấp với chất liệu cotton 100%, form dáng hiện đại, thoáng mát và thấm hút mồ hôi tốt. Thiết kế basic dễ phối đồ, phù hợp với nhiều phong cách.
+                        </p>
+                        
+                        <!-- Features -->
+                        <ul class="space-y-2">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Chất liệu: Cotton 100%
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Form dáng: Regular fit
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Xuất xứ: Việt Nam
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Size Selection -->
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2">Kích thước</h3>
+                        <div class="flex space-x-4">
+                            <button class="px-4 py-2 border rounded-lg hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500">S</button>
+                            <button class="px-4 py-2 border rounded-lg hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500">M</button>
+                            <button class="px-4 py-2 border rounded-lg hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500">L</button>
+                            <button class="px-4 py-2 border rounded-lg hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500">XL</button>
+                        </div>
+                    </div>
+
+                    <!-- Color Selection -->
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2">Màu sắc</h3>
+                        <div class="flex space-x-4">
+                            <button class="w-8 h-8 rounded-full bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"></button>
+                            <button class="w-8 h-8 rounded-full bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"></button>
+                            <button class="w-8 h-8 rounded-full bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"></button>
+                        </div>
+                    </div>
+
+                    <!-- Buy Button -->
+                    <div class="flex space-x-4">
+                        <button class="flex-1 bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors">
+                            <i class="fas fa-shopping-cart mr-2"></i>
+                            Mua ngay
+                        </button>
+                        <button class="p-3 border border-gray-300 rounded-lg hover:bg-gray-100 transition-colors">
+                            <i class="fas fa-heart text-red-500"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Details Tabs -->
+            <div class="border-t">
+                <div class="p-8">
+                    <div class="border-b border-gray-200">
+                        <nav class="flex space-x-8">
+                            <button class="border-b-2 border-blue-600 py-4 px-1 text-sm font-medium text-blue-600">
+                                Mô tả chi tiết
+                            </button>
+                            <button class="border-b-2 border-transparent py-4 px-1 text-sm font-medium text-gray-500 hover:text-gray-700">
+                                Đánh giá (120)
+                            </button>
+                            <button class="border-b-2 border-transparent py-4 px-1 text-sm font-medium text-gray-500 hover:text-gray-700">
+                                Hướng dẫn chọn size
+                            </button>
+                        </nav>
+                    </div>
+
+                    <div class="py-8">
+                        <div class="prose max-w-none">
+                            <h3 class="text-xl font-semibold mb-4">Thông tin chi tiết sản phẩm</h3>
+                            <p class="mb-4">
+                                Áo thun nam cao cấp được thiết kế với phong cách basic, dễ dàng phối đồ và phù hợp với nhiều hoàn cảnh khác nhau. Sản phẩm được làm từ chất liệu cotton 100% cao cấp, đảm bảo độ thoáng mát và thấm hút mồ hôi tốt.
+                            </p>
+                            <h4 class="text-lg font-semibold mb-2">Đặc điểm nổi bật:</h4>
+                            <ul class="list-disc pl-6 mb-4">
+                                <li>Chất liệu cotton 100% cao cấp</li>
+                                <li>Form dáng regular fit thoải mái</li>
+                                <li>Đường may tỉ mỉ, chắc chắn</li>
+                                <li>Họa tiết in cao cấp, bền màu</li>
+                                <li>Dễ dàng phối đồ</li>
+                            </ul>
+                            <h4 class="text-lg font-semibold mb-2">Hướng dẫn bảo quản:</h4>
+                            <ul class="list-disc pl-6">
+                                <li>Giặt máy ở nhiệt độ thường</li>
+                                <li>Không sử dụng chất tẩy</li>
+                                <li>Phơi trong bóng râm</li>
+                                <li>Ủi ở nhiệt độ thấp</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Products -->
+        <div class="mt-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Sản phẩm liên quan</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Related Product 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg" alt="Áo sơ mi nam" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Áo sơ mi nam dài tay</h3>
+                        <div class="flex items-center mt-2">
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="ml-2 text-gray-600">(85)</span>
+                        </div>
+                        <div class="mt-2 flex justify-between items-center">
+                            <span class="text-lg font-bold text-gray-900">450.000đ</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-700">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Product 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1007018/pexels-photo-1007018.jpeg" alt="Quần jean nam" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Quần jean nam slim fit</h3>
+                        <div class="flex items-center mt-2">
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="ml-2 text-gray-600">(95)</span>
+                        </div>
+                        <div class="mt-2 flex justify-between items-center">
+                            <span class="text-lg font-bold text-gray-900">599.000đ</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-700">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Product 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg" alt="Áo khoác nam" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Áo khoác nam thu đông</h3>
+                        <div class="flex items-center mt-2">
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="ml-2 text-gray-600">(75)</span>
+                        </div>
+                        <div class="mt-2 flex justify-between items-center">
+                            <span class="text-lg font-bold text-gray-900">799.000đ</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-700">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Product 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg" alt="Áo polo nam" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Áo polo nam thể thao</h3>
+                        <div class="flex items-center mt-2">
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="ml-2 text-gray-600">(65)</span>
+                        </div>
+                        <div class="mt-2 flex justify-between items-center">
+                            <span class="text-lg font-bold text-gray-900">349.000đ</span>
+                            <a href="#" class="text-blue-600 hover:text-blue-700">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Về chúng tôi</h3>
+                    <p class="text-gray-400">Smart Affiliate - Nền tảng tiếp thị liên kết thông minh với sự hỗ trợ của AI</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Danh mục</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Thời trang</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mỹ phẩm</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Công nghệ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Đồ trẻ em</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Liên hệ</h3>
+                    <ul class="space-y-2">
+                        <li><i class="fas fa-envelope mr-2"></i> contact@smartaffiliate.com</li>
+                        <li><i class="fas fa-phone mr-2"></i> 0123.456.789</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Hà Nội, Việt Nam</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Theo dõi chúng tôi</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube text-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+                <p class="text-gray-400">&copy; 2024 Smart Affiliate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
