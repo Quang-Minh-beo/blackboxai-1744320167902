@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiếp thị Liên kết Thông minh với Trợ lý AI</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/affiliate-marketing/index.html" class="flex items-center">
+                        <i class="fas fa-robot text-blue-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-gray-800">Smart Affiliate</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="/affiliate-marketing/index.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Trang chủ</a>
+                    <a href="/affiliate-marketing/category.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Danh mục</a>
+                    <a href="/affiliate-marketing/contact.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Liên hệ</a>
+                    <a href="/affiliate-marketing/admin.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Quản trị</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-gray-600 text-xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden">
+                <a href="/affiliate-marketing/index.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Trang chủ</a>
+                <a href="/affiliate-marketing/category.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Danh mục</a>
+                <a href="/affiliate-marketing/contact.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Liên hệ</a>
+                <a href="/affiliate-marketing/admin.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Quản trị</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                            <span class="block">Mua sắm thông minh</span>
+                            <span class="block text-blue-600">với Trợ lý AI</span>
+                        </h1>
+                        <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                            Khám phá cách mua sắm mới với sự hỗ trợ của trí tuệ nhân tạo. Tìm kiếm sản phẩm nhanh chóng, nhận tư vấn thông minh và mua sắm hiệu quả.
+                        </p>
+                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                            <div class="rounded-md shadow">
+                                <a href="#categories" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+                                    Khám phá ngay
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <div id="categories" class="bg-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    Danh mục sản phẩm
+                </h2>
+                <p class="mt-4 text-xl text-gray-500">
+                    Khám phá các danh mục sản phẩm đa dạng của chúng tôi
+                </p>
+            </div>
+
+            <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Category 1 -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="aspect-w-3 aspect-h-2">
+                        <img src="https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg" alt="Thời trang" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">
+                            <a href="/affiliate-marketing/category.html" class="hover:text-blue-600">
+                                <span class="absolute inset-0"></span>
+                                Thời trang
+                            </a>
+                        </h3>
+                        <p class="mt-2 text-sm text-gray-500">Quần áo, giày dép thời trang mới nhất</p>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="aspect-w-3 aspect-h-2">
+                        <img src="https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg" alt="Mỹ phẩm" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">
+                            <a href="/affiliate-marketing/category.html" class="hover:text-blue-600">
+                                <span class="absolute inset-0"></span>
+                                Mỹ phẩm
+                            </a>
+                        </h3>
+                        <p class="mt-2 text-sm text-gray-500">Các sản phẩm chăm sóc sắc đẹp</p>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="aspect-w-3 aspect-h-2">
+                        <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg" alt="Công nghệ" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">
+                            <a href="/affiliate-marketing/category.html" class="hover:text-blue-600">
+                                <span class="absolute inset-0"></span>
+                                Công nghệ
+                            </a>
+                        </h3>
+                        <p class="mt-2 text-sm text-gray-500">Thiết bị điện tử và phụ kiện</p>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="group relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="aspect-w-3 aspect-h-2">
+                        <img src="https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg" alt="Đồ trẻ em" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">
+                            <a href="/affiliate-marketing/category.html" class="hover:text-blue-600">
+                                <span class="absolute inset-0"></span>
+                                Đồ trẻ em
+                            </a>
+                        </h3>
+                        <p class="mt-2 text-sm text-gray-500">Sản phẩm dành cho bé yêu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Chat Widget -->
+    <div id="chat-widget" class="fixed bottom-4 right-4 z-50">
+        <div class="bg-white rounded-lg shadow-xl w-96 hidden" id="chat-window">
+            <div class="p-4 border-b border-gray-200">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                        <i class="fas fa-robot text-blue-600 text-xl mr-2"></i>
+                        <h3 class="text-lg font-semibold">Trợ lý AI</h3>
+                    </div>
+                    <button onclick="window.toggleChat()" class="text-gray-400 hover:text-gray-600">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="p-4 h-96 overflow-y-auto" id="chat-messages">
+                <div class="mb-4">
+                    <div class="flex items-start">
+                        <div class="bg-blue-100 rounded-lg py-2 px-4 max-w-[80%]">
+                            <p class="text-sm text-gray-800">Xin chào! Tôi là trợ lý AI. Tôi có thể giúp gì cho bạn?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 border-t border-gray-200">
+                <div class="flex items-center">
+                    <input type="text" id="chat-input" placeholder="Nhập câu hỏi của bạn..." class="flex-1 border border-gray-300 rounded-lg py-2 px-4 mr-2 focus:outline-none focus:border-blue-500">
+                    <button onclick="window.sendMessage()" class="bg-blue-600 text-white rounded-lg px-4 py-2 hover:bg-blue-700">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <button onclick="window.toggleChat()" class="bg-blue-600 text-white rounded-full p-4 shadow-lg hover:bg-blue-700 transition-colors duration-300" id="chat-button">
+            <i class="fas fa-comments text-2xl"></i>
+        </button>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="bg-gray-100 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    Sản phẩm nổi bật
+                </h2>
+                <p class="mt-4 text-xl text-gray-500">
+                    Khám phá những sản phẩm được yêu thích nhất
+                </p>
+            </div>
+
+            <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg" alt="Áo thun nam" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">Áo thun nam cao cấp</h3>
+                        <p class="mt-2 text-gray-500">Chất liệu cotton 100%, form dáng hiện đại</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xl font-bold text-gray-900">299.000đ</span>
+                            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg" alt="Điện thoại" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">Smartphone XYZ Pro</h3>
+                        <p class="mt-2 text-gray-500">Camera 108MP, pin 5000mAh, sạc nhanh</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xl font-bold text-gray-900">5.990.000đ</span>
+                            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg" alt="Mỹ phẩm" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">Bộ mỹ phẩm cao cấp</h3>
+                        <p class="mt-2 text-gray-500">Dưỡng ẩm, chống lão hóa hiệu quả</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xl font-bold text-gray-900">899.000đ</span>
+                            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Về chúng tôi</h3>
+                    <p class="text-gray-400">Smart Affiliate - Nền tảng tiếp thị liên kết thông minh với sự hỗ trợ của AI</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Danh mục</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Thời trang</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mỹ phẩm</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Công nghệ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Đồ trẻ em</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Liên hệ</h3>
+                    <ul class="space-y-2">
+                        <li><i class="fas fa-envelope mr-2"></i> contact@smartaffiliate.com</li>
+                        <li><i class="fas fa-phone mr-2"></i> 0123.456.789</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Hà Nội, Việt Nam</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Theo dõi chúng tôi</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram text-2xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube text-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+                <p class="text-gray-400">&copy; 2024 Smart Affiliate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
